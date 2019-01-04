@@ -1,0 +1,106 @@
+﻿body{
+	margin: 0;
+	padding: 0;
+	background: url(Penrose-triangle.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.login-block{
+	width: 320px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0);
+	color: #ffffff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.multi_admin
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	color: black;
+}
+.login-block p{
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-weight: bold;
+}
+.login-block input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.login-block input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+}
+.login-block input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.login-block a
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.login-block input[type="submit"]:hover
+{ 	
+	cursor: pointer;
+	background: #dda0dd;
+	color: #000;
+}
+.login-block a{
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+}
+.login-block a:hover
+{
+	color: #ff0000;
+}
+.login-block input[type="signup"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #ff0000;
+	font-size: 18px;
+	border-radius: 2px;
+}
+.login-block input[type="signup"]:hover
+{ 	
+	cursor: pointer;
+	background: #008000;
+	color: #008000;
+}

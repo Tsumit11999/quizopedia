@@ -1,0 +1,35 @@
+
+
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.r-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}
+
+.r-button{border:1px;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;white-space:normal}
+.r-center{text-align:center;display:inline-block;width:auto}
+.r-container:after,.r-container:before,.r-row-padding:after,.r-row-padding:before{content:"";display:table;clear:both}
+.r-col{float:left;width:100%}
+@media (min-width:601px){.r-col.m1{width:8.33333%}.r-col.m2{width:16.66666%}.r-col.m3{width:24%}.r-col.m7{width:58%}.r-col.m12{width:99%}}
+
+.r-round{border-radius:5px}
+.r-row-padding{padding:0 8px}
+.r-container,.r-panel{padding:0.01em 16px}
+.r-card{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.r-border{border:1px solid #ccc!important}
+.r-margin{margin:16px!important}
+.r-padding{padding:8px 16px!important}
+.r-button:hover{color:#000!important;background-color:#ccc!important}
+.r-white,.r-hover-white:hover{color:#000!important;background-color:#fff!important}
+.r-theme {color:#fff !important; background-color:#607d8b !important}
+
+
+.ande {
+    display: none;position: absolute;background-color: #dcdcdc; min-width: 168px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8); z-index: 1;border: 0.1px solid black;border-radius: 10px; }
+
+.ande a {color: black;padding: 12px 16px; text-decoration: calibri; display: block;text-align: left;border: 0.1px solid black;border-radius: 25px;   }
+.circle{border-radius:50%}
+.ande a:hover {background-color: #f1f1f1}
+
+.dd:hover .ande {display: block;}
+body {background-image: url("idea.jpg");background-attachment: fixed;}
+.r-footer{position: fixed;left: 0;  bottom: 0;  width: 100%;   color: black; background-color:#778899;  text-align: center;}
+
